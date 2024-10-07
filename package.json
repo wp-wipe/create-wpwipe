@@ -1,0 +1,22 @@
+{
+  "name": "create-wpwipe",
+  "version": "0.0.5",
+  "description": "A CLI for creating new WpWipe Powered theme or plugin",
+  "main": "./src/index.js",
+  "bin": {
+    "create-wpwipe": "src/bin.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "bin": "node ./src/bin.js",
+    "publish": "npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "picocolors": "^1.1.0"
+  }
+}

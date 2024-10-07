@@ -1,0 +1,23 @@
+{
+  "name": "%%THEMENAME%%",
+  "private": true,
+  "version": "%%VERSION%%",
+  "type": "module",
+  "scripts": {
+    "dev": "wpwipe --watch",
+    "build": "wpwipe --minify",
+    "postinstall": "npm link @wp-wipe/components"
+  },
+  "dependencies": {
+    "@wordpress/components": "*",
+    "@wordpress/element": "*",
+    "@wordpress/i18n": "*"
+  },
+  "devDependencies": {
+    "@types/wordpress__block-editor": "*",
+    "@types/wordpress__blocks": "*",
+    "@types/wordpress__editor": "*",
+    "@wp-wipe/bundler": "*",
+    "react-dom": "^18.2.0"
+  }
+}
