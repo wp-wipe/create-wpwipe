@@ -86,7 +86,7 @@
     "typography": {
       "fontFamily": "Helvetica, sans-serif",
       "fontWeight": "400",
-      "fontSize": "var(--wp--preset--font-size--small)",
+      "fontSize": "var(--wp--preset--font-size--medium)",
       "fontStyle": "normal",
       "lineHeight": "1.6"
     },
